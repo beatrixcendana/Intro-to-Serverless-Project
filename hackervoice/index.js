@@ -8,5 +8,4 @@ module.exports = async function (context, req) {
     };
 }
 
-// 1. gets content from a request parameter called password 
-// 2. returns it in the function's body
+

@@ -6,7 +6,9 @@
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "morse-code-converter": "^1.0.2"
+  },
   "devDependencies": {},
   "main": "index.js",
   "repository": {

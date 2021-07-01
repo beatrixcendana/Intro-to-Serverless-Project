@@ -4,27 +4,29 @@ var fetch = require('node-fetch');
 module.exports = async function (context, req) {
     // here's your boundary:
     var boundary = multipart.getBoundary(req.headers['content-type']);
-    
-    // assign the body variable the correct value
-    var body = req.body;
+
+    //var body = req.body
+    var body = req.body
 
     // parse the body
     var parts = multipart.Parse(body, boundary);
-    
-    // we are not converting it.
-    var img = parts[0].data;
 
-    //module.exports function
-    //analyze the image
-    var result = await analyzeImage(img);
+    //we are not converting it.
+    var image = parts[0].data
+
+    //now we are calling analyzeImage function
+    var result = await analyzeImage(image)
+
+    //var base64data = Buffer.from(parts[0].data).toString('base64')
+
     context.res = {
-        body: {
-            result
-        }
+        // status: 200, /* Defaults to 200 */
+        body: result
     };
     console.log(result)
-    context.done(); 
-}
+    context.done();
+} 
+
 
 async function analyzeImage(img){
     //change values while testing locally
@@ -40,13 +42,13 @@ async function analyzeImage(img){
     let resp = await fetch(uriBase + '?' + params.toString(), {
         method: 'POST', 
         body: img,  // img being passed into this function
-        
+
         headers: {
             'Content-Type': 'application/octet-stream',
             'Ocp-Apim-Subscription-Key': subscriptionKey
         }
     })
-    
+
     let data = await resp.json();
 
     return data; 

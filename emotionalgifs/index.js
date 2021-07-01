@@ -5,13 +5,13 @@ module.exports = async function (context, req) {
     // here's your boundary:
     var boundary = multipart.getBoundary(req.headers['content-type']);
     
-    // TODO: assign the body variable the correct value
+    // assign the body variable the correct value
     var body = req.body
 
     // parse the body
     var parts = multipart.Parse(body, boundary);
     
-    //we are not converting it.
+    // we are not converting it.
     var image = parts[0].data
 
     //now we are calling analyzeImage function
@@ -20,7 +20,7 @@ module.exports = async function (context, req) {
 
     context.res = {
         // status: 200, /* Defaults to 200 */
-        body: { result }
+        body: {result}
     };
 }
 

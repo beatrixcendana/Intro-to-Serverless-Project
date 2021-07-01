@@ -17,11 +17,17 @@ module.exports = async function (context, req) {
     //now we are calling analyzeImage function
     var result = await analyzeImage(image)
 
-    //var base64data = Buffer.from(parts[0].data).toString('base64')
+    let emotions = result[0].faceAttributes.emotion;
+
+    let objects = Object.values(emotions);
+
+    const main_emotion = Object.keys(emotions).find(key => emotions[key] === Math.max(...objects));
+
+
 
     context.res = {
         // status: 200, /* Defaults to 200 */
-        body: { result }
+        body: main_emotion
     };
     console.log(result)
     context.done();

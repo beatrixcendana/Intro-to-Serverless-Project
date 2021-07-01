@@ -6,22 +6,24 @@ module.exports = async function (context, req) {
     var boundary = multipart.getBoundary(req.headers['content-type']);
     
     // assign the body variable the correct value
-    var body = req.body
+    var body = req.body;
 
     // parse the body
     var parts = multipart.Parse(body, boundary);
     
     // we are not converting it.
-    var image = parts[0].data
+    var img = parts[0].data;
 
-    //now we are calling analyzeImage function
-    var result = await analyzeImage(image)
-
-
+    //module.exports function
+    //analyze the image
+    var result = await analyzeImage(img);
     context.res = {
-        // status: 200, /* Defaults to 200 */
-        body: {result}
+        body: {
+            result
+        }
     };
+    console.log(result)
+    context.done(); 
 }
 
 async function analyzeImage(img){

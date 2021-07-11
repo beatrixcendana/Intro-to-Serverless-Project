@@ -41,8 +41,9 @@ async function createDocument (newItem) {
 
     await create(client, databaseId, containerId);
     const querySpec = {
-        query: "SELECT top 1 * FROM c order by c._ts desc"
+      query: "SELECT * from c"
     };
+  
 
     //to execute the query
     const { resources: items } = await container.items.query(querySpec).fetchAll();
@@ -59,8 +60,10 @@ module.exports = async function (context, req) {
 
     let items = await createDocument (myMessage);
 
+    var random_value = Math.floor(items.length * Math.random());
+
     //define what we are gonna be returning
-    const responseMessage = `Thanks 😊! Stored your secret "${message}". 😯 Someone confessed that: ${JSON.stringify(items[0].message)}`
+    const responseMessage = `Thanks 😊! Stored your secret "${message}". 😯 Someone confessed that: ${JSON.stringify(items[random_value].message)}`
 
     context.res = {
         body: responseMessage

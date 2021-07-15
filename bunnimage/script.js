@@ -18,7 +18,7 @@ function getImage(event) {
             let url = "https://serverproject1.azurewebsites.net/api/bunnimage-upload"
             console.log("Image was uploaded, making POST request to Azure function")
             // create request to Azure function
-            const resp = await fetch (url, {
+            const resp = fetch (url, {
                 method: 'POST',
                 headers: {
                     'codename' : nameInput.value

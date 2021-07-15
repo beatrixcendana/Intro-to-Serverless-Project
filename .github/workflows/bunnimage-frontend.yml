@@ -24,6 +24,9 @@ jobs:
       - name: Install Cypress
         run: npm install cypress
 
+      - name: Install Cypress
+        run: npm install cypress
+        
       - name: Step 1
         uses: cypress-io/github-action@v2
         if: ${{steps.vars.outputs.count == 38 && github.event.head_commit.message != 'Update progress'}}

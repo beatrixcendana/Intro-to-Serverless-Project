@@ -3,9 +3,27 @@ const fetch = require('node-fetch')
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
+    // function getNames() {
+    //     //initialize the array
+    //     var names = ["Shreya", "Emily", "Beau", "Evelyn", "Julia", "Daniel", "Fardeen"]
+    //     var random_value = Math.floor(names.length * Math.random())
+    //     var resultname = names[random_value]
 
-    async function getCat() {
-        let resp = await fetch("https://cataas.com/cat/cute/says/Serverless", {
+    //     return resultname
+    // }
+
+    // let name1 = getNames()
+    // let name2 = getNames()
+
+    let name1 = req.query.name1
+    let name2 = req.query.name2
+    let name3 = req.query.name3
+    let name4 = req.query.name4
+
+    async function getCat(name){
+        let endpoint = "https://cataas.com/cat/cute/says/" + name
+
+        let resp = await fetch(endpoint, {
             method: 'GET'
         });
         
@@ -17,31 +35,22 @@ module.exports = async function (context, req) {
         //put what you want to turn into base64 inside "originaldata"
         //"originaldata" will be encoded in base64.
 
-        return base64data
-    }
-   
-    // we need two cat pictures so we have to call function twice.
-    let catPict1 = await getCat()
-    let catPict2 = await getCat()
-
-    function getNames() {
-        //initialize the array
-        var names = ["Shreya", "Emily", "Beau", "Evelyn", "Julia", "Daniel", "Fardeen"]
-        var random_value = Math.floor(names.length * Math.random())
-        var resultname = names[random_value]
-
-        return resultname
+        return base64data;
     }
 
-    let name1 = getNames()
-    let name2 = getNames()
+    //As a response
+    let cat1 = await getCat(name1)
+    let cat2 = await getCat(name2)
+    let cat3 = await getCat(name3)
+    let cat4 = await getCat(name4)
 
     context.res = {
         // status: 200, /* Defaults to 200 */
         body: {
-            cat1: catPict1,
-            cat2: catPict2,
-            names: [name1, name2]
+            cat1: cat1,
+            cat2: cat2,
+            cat3: cat3,
+            cat4: cat4,
         }
     };
 }

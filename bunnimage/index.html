@@ -8,12 +8,19 @@
   <body>
       <div>
               <h1 id="h1">Give your code some love ❤️</h1>
-              <form>
-                  <label>Code: </label>
-                  <input type="text" id="name" name="name" /><br>
-                  <input value="Submit" type="button" />
+              <form id = "myform" onsubmit = "getImage(event)" enctype = "multipart/form-data">
+                  <input id = "image" class = "labelimage" type="file" accept= "image/x-png,image/jpeg" name="image"></input>
+                  <input type="text" id="username" placeholder="Enter your file's name"/><br>
+                  <input id= "button1" class= "c-btn-primary" value="Submit" type="submit" />
+                  <br>
+                  <input id="downloadusername"></input>
+                  <input id= "button2" class= "c-btn-primary" value="Download" type="button" onclick="downloadImage()"></input>
               </form>
               <br/>
               <div id="output"></div>
         </div>
     </body>  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     
+    <script src="script.js"/></script>

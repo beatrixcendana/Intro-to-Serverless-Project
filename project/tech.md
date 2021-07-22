@@ -3,14 +3,20 @@
 ### Azure Services
 
 **Azure Cognitive Services**
-- Timer trigger function: to give the reminder to the user when it is time to cook/eat. 
-- LUIS: to search and understand the users' food preferences by pulling out relevant and detailed food recipes.
-- (Probably) I will include Azure data blob storage to store the images that contain the common ingredients that people eat daily.
+- Timer Trigger Function: 
+  - [x] To enable users set up the preparation or cooking time.
+  - [x] Give the reminder to the user when it is time to cook/eat. 
+- Azure Durable Function: 
+  - [x] To execute multiple functions/steps in parallel and then wait for all functions to finish.
+
 
 ### APIs
 
 **Twilio SMS API**
-- Users will receive the reminders (and the links or images) in their phone.
+- Users will receive the reminders (and the text, links and random images) in their phone.
+
+**Food REST API**
+- The system generates the random recipe based on users' preferences.
 
 ### Packages/Libraries/Databases
 
@@ -25,4 +31,4 @@
 
 ### Flowchart
 
-![Flowchart of Food Bloom Reminder and Recipe Suggestion](https://drive.google.com/uc?export=view&id=1Ptvp3OvsWOPsSjIzQMe--Apg04uMWbHR)
+![Flowchart of Food Bloom Reminder and Recipe Suggestion](https://drive.google.com/uc?export=view&id=1rEdqpitnFasP3sHtITwuaOo_9LoVfuTM)

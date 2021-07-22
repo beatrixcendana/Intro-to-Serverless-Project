@@ -13,14 +13,20 @@
 **Twilio SMS API**
 - Users will receive the reminders (and the text, links and random images) in their phone.
 
+
 [**Tasty API**](https://rapidapi.com/apidojo/api/tasty/)
 - The system generates the random recipe based on users' preferences.
+
+
+### Packages/Libraries
+- I don't use any packages in this project.
 
 
 ### Front-end Languages
 
 **Node.js**
 - Users will receive the reminders (and the links or images) in their phone.
+
 
 ### Flowchart
 

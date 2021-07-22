@@ -2,15 +2,14 @@
 
 ### Azure Services
 
-**Name of Service**
-- [replace with bullet list of what purpose(s) it serves for my project]
-- [include how it will interact with other components of your project listed above/below]
+**Azure Cognitive Services**
+- Timer trigger function: to give the reminder to the user when it is time to cook/eat. 
+- LUIS: to search and understand the users' food preferences by pulling out relevant and detailed food recipes.
 
 ### APIs
 
-**Name of API**
-- [replace with bullet list of what purpose(s) it serves for my project]
-- [include how it will interact with other components of your project listed above/below]
+**Twilio SMS API**
+- Users will receive the reminders (and the links or images) in their phone.
 
 ### Packages/Libraries/Databases
 
@@ -20,10 +19,9 @@
 
 ### Front-end Languages
 
-**Name of Language**
-- [replace with bullet list of what purpose(s) it serves for my project]
-- [include how it will interact with other components of your project listed above/below]
+**Node.js**
+- Users will receive the reminders (and the links or images) in their phone.
 
 ### Flowchart
 
-[Replace with image of final flowchart]
+![Flowchart of Food Bloom Reminder and Recipe Suggestion](https://drive.google.com/uc?export=view&id=1Ptvp3OvsWOPsSjIzQMe--Apg04uMWbHR)

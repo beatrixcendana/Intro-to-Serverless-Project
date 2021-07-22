@@ -1,18 +1,18 @@
-# Timeline
-> Note: Copy and paste the task template (bottom of page)
+# 📅 Timeline 📅
+<br>
 
 ## Week 1
 
-### Research and documentation:
+### 🔬📄 Research and documentation:
 
-#### Description
+#### ⭐ Description
 - In this week, I am going to get all resources and all documentations that I need to get started with the project.
 
-#### ETA:
+#### ⭐ ETA:
 > How long do you think it will take to complete this?
 - 45 minutes until 1 hour
 
-#### Objective:
+#### ⭐ Objective:
 > Checklist of everything you need to do to complete this issue
 - [ ] Get resources for timer trigger function
 - [ ] Check all the links that relate to API that I use
@@ -21,16 +21,16 @@
 
 ## Week 2
 
-### Start coding:
+### 📚👨‍💻 Start coding:
 
-#### Description
+#### ⭐ Description
 - I will work on Azure function and Twilio API.
 
-#### ETA:
+#### ⭐ ETA:
 > How long do you think it will take to complete this?
 - 1-2 hours
 
-#### Objective:
+#### ⭐ Objective:
 > Checklist of everything you need to do to complete this issue
 - [ ] Start on Timer trigger function
 - [ ] Set the timer (twice a day)
@@ -40,16 +40,16 @@
 
 ## Week 3
 
-### Work on Tasty API:
+### 🤤🍗 Work on Tasty API:
 
-#### Description
+#### ⭐ Description
 - I will start to work on food API (generate random recipes)
 
-#### ETA:
+#### ⭐ ETA:
 > How long do you think it will take to complete this?
 - 2-3 hours
 
-#### Objective:
+#### ⭐ Objective:
 > Checklist of everything you need to do to complete this issue
 - [ ] Add the Tasty API
 - [ ] Use if statement (in this case)
@@ -58,16 +58,16 @@
 
 ## Week 4
 
-### Practice, debug and test to REAL USER:
+### 💁🥳 Practice, debug and test to REAL USER:
 
-#### Description
+#### ⭐ Description
 - If everything works smoothly, I will focus more on practicing the final project and try to make sure again if any words that I create for the SMS reminder make sense to the user (reason is to improve the user experience). 
 
-#### ETA:
+#### ⭐ ETA:
 > How long do you think it will take to complete this?
 - 1-2 hours
 
-#### Objective:
+#### ⭐ Objective:
 > Checklist of everything you need to do to complete this issue
 - [ ] Make sure that the project works
 - [ ] Test it to the user.

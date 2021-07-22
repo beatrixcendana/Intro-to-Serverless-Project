@@ -5,6 +5,7 @@
 **Azure Cognitive Services**
 - Timer trigger function: to give the reminder to the user when it is time to cook/eat. 
 - LUIS: to search and understand the users' food preferences by pulling out relevant and detailed food recipes.
+- (Probably) I will include Azure data blob storage to store the images that contain the common ingredients that people eat daily.
 
 ### APIs
 

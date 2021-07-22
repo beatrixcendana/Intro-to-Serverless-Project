@@ -1,5 +1,4 @@
 # 📅 Timeline 📅
-<br>
 
 ## Week 1
 
@@ -18,6 +17,7 @@
 - [ ] Check all the links that relate to API that I use
 - [ ] Learn more about food API and how it works with Twilio
 - [ ] Create the text writing for SMS reminder (I want to make sure it follows the UX writing guideline which is to help the user understand the questions/statement that I create).
+<br>
 
 ## Week 2
 
@@ -37,6 +37,7 @@
 - [ ] Time to test and debug
 - [ ] Start connecting with Twilio API 
 - [ ] Time to test and debug again
+<br>
 
 ## Week 3
 
@@ -55,6 +56,7 @@
 - [ ] Use if statement (in this case)
 - [ ] Test and debug
 - [ ] Learn how to present the project
+<br>
 
 ## Week 4
 

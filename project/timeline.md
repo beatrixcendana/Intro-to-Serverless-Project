@@ -9,13 +9,14 @@
 
 #### ⭐ ETA:
 > How long do you think it will take to complete this?
-- 45 minutes until 1 hour
+- 2-3 hours
 
 #### ⭐ Objective:
 > Checklist of everything you need to do to complete this issue
 - [ ] Get resources for timer trigger function
 - [ ] Check all the links that relate to API that I use
 - [ ] Learn more about food API and how it works with Twilio
+- [ ] Check if Twilio SMS would work outside US and Canada
 - [ ] Create the text writing for SMS reminder (I want to make sure it follows the UX writing guideline which is to help the user understand the questions/statement that I create).
 <br>
 
@@ -28,13 +29,13 @@
 
 #### ⭐ ETA:
 > How long do you think it will take to complete this?
-- 1-2 hours
+- 3-5 hours
 
 #### ⭐ Objective:
 > Checklist of everything you need to do to complete this issue
 - [ ] Start on Timer trigger function
 - [ ] Set the timer (twice a day)
-- [ ] Time to test and debug
+- [ ] Time to test (deploy) and debug
 - [ ] Start connecting with Twilio API 
 - [ ] Time to test and debug again
 <br>
@@ -54,16 +55,19 @@
 > Checklist of everything you need to do to complete this issue
 - [ ] Add the Tasty API
 - [ ] Use if statement (in this case)
-- [ ] Test and debug
+- [ ] Deploy and debug
 - [ ] Learn how to present the project
 <br>
 
 ## Week 4
 
-### 💁🥳 Practice, debug and test to REAL USER:
+### 💁🥳 Practice, debug and test to real user (1 developers and 1 designer):
 
 #### ⭐ Description
 - If everything works smoothly, I will focus more on practicing the final project and try to make sure again if any words that I create for the SMS reminder make sense to the user (reason is to improve the user experience). 
+- Test cases: 
+  - [] User will try to put the timer vis SMS to set up the mealtime reminder. Then, user will receive the message if they successfully set up the reminder. Then, user will get the reminder according to time they set up (Do they get the text message from Twilio?). 
+  - [] If yes, they can request the recipe based on their preferences. And does Twilio send it back to user with specific recipe that user wants?
 
 #### ⭐ ETA:
 > How long do you think it will take to complete this?

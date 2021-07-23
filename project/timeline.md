@@ -66,8 +66,8 @@
 #### ⭐ Description
 - If everything works smoothly, I will focus more on practicing the final project and try to make sure again if any words that I create for the SMS reminder make sense to the user (reason is to improve the user experience). 
 - Test cases: 
-  - [] User will try to put the timer vis SMS to set up the mealtime reminder. Then, user will receive the message if they successfully set up the reminder. Then, user will get the reminder according to time they set up (Do they get the text message from Twilio?). 
-  - [] If yes, they can request the recipe based on their preferences. And does Twilio send it back to user with specific recipe that user wants?
+  - [ ] User will try to put the timer vis SMS to set up the mealtime reminder. Then, user will receive the message if they successfully set up the reminder. Then, user will get the reminder according to time they set up (Do they get the text message from Twilio?). 
+  - [ ] If yes, they can request the recipe based on their preferences. And does Twilio send it back to user with specific recipe that user wants?
 
 #### ⭐ ETA:
 > How long do you think it will take to complete this?

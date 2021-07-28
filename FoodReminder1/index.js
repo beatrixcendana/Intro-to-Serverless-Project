@@ -11,7 +11,7 @@ module.exports = async function (context, myTimer) {
     .create({ from: process.env.SENDER_NUMBER,
            body: "Morning! Time to have breakfast 😋🥘. What ingredient would you like to have?",
            to: process.env.RECIPIENT_NUMBER,
-           mediaUrl: "https://dog.ceo/api/breeds/image/random",
+           mediaUrl: "https://miro.medium.com/max/700/1*OtRzMDGD0qepGUCToZHZ3Q.jpeg",
        })
         .then(message => {             
            context.log("Message sent");

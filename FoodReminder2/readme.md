@@ -32,7 +32,7 @@ Get a reminder to eat breakfast and lunch (two timer trigger functions), choose 
 
     As an international student that works or studies from home due to the pandemic, I need a product that can help me to generate a random recipe for daily cooking. Also, I need a reminder when it is time for me to eat lunch or breakfast. The reason is that I always focus on working without thinking about having a meal on the proper schedule.
     Before creating this idea or solution, I researched by asking ten people in my Discord group.
-    6 out of 10 always eat instant noodles or instant foods because they have no idea what to cook or prepare.
+    `6 out of 10 always eat instant noodles or instant foods because they have no idea what to cook or prepare.`
     
 
 # Technologies
@@ -42,8 +42,7 @@ Get a reminder to eat breakfast and lunch (two timer trigger functions), choose 
 **Azure Cognitive Services**
 
 - Timer trigger function: to give the reminder to the user when it is time to cook/eat.
-- LUIS: Search and understand the users' food preferences by pulling out relevant and detailed food recipes.
-- (Probably) I will include Azure data blob storage to store the images that contain the common ingredients that people eat daily.
+- Food API: Search and understand the users' food preferences by pulling out relevant and detailed food recipes.
 
 ### APIs
 
@@ -53,7 +52,7 @@ Get a reminder to eat breakfast and lunch (two timer trigger functions), choose 
 
 ### Front-end Languages
 
-**Node.js**
+**Node.js and Javascript**
 
 - Creating time-based reminder.
 

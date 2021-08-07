@@ -1,3 +1,4 @@
+const fetch = require ('node-fetch')
 const twiAccountSid = process.env.TWILIO_SID;
 const twiAuthToken = process.env.TWILIO_TOKEN;
 const client = require('twilio')(twiAccountSid, twiAuthToken);
@@ -28,7 +29,27 @@ module.exports = async function (context, myTimer) {
                };
           context.done();
         });
+
+        // just try to call my http trigger function 
+        async function myMessage(){
+            let httpfunc = "https://serverproject1.azurewebsites.net/api/tastyapirecipe"
+    
+            let resp = await fetch(httpfunc, {
+                method: 'GET'
+            });
+
+            let data = await resp.json()
+            return data;
+        }
+
+        let myResp = await myMessage()
+
+        context.res = {
+            myResp: myResp
+        }
     }
+
+    
 
 // Just try to implement the food API into timer trigger function, but still not work. I will just comment this out. I might use some of the codes later.
 // const twiAccountSid = process.env.TWILIO_SID;

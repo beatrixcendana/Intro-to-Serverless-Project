@@ -16,7 +16,8 @@ So, I decided to create the SMS feature that can remind people to eat based on a
 ## Behind the scenes (include and describe flowchart)
 I made two flowcharts. In case the Tasty API doesn't work (sometimes it has an issue with the key), I can use another API which is called [Spoonacular Food API](https://spoonacular.com/food-api?ref=apilist.fun).
 
-<img src = "https://drive.google.com/uc?export=view&id=1lmgwj8-GlpT8pP0QMIsnQymw4j_hbO8V" alt = "Flowchart of Food Bloom Reminder and Recipe Suggestion" width = 600/>
+<img src = "https://drive.google.com/uc?export=view&id=1iziGo1hok-8pJKzcjbSDzCyiBb2LdIHx" alt = "Flowchart of Food Bloom Reminder and Recipe Suggestion v1" width = 500/><img src = "https://drive.google.com/uc?export=view&id=1lmgwj8-GlpT8pP0QMIsnQymw4j_hbO8V" alt = "Flowchart of Food Bloom Reminder and Recipe Suggestion v2" width = 500/>
+
 <br>
 
 ## The Technologies (Azure services, APIs, etc.)
@@ -72,7 +73,7 @@ I also realize that I couldn't finish the final project perfectly due to the lim
 <br>
 
 ## Thanks and Acknowledgements
-Thanks to BitProject for giving me such a huge opportunity to learn more about API or serverless function, participate in the tech conferences, and practice my presentation skills. I never thought that I would work on the development process or backend stuff. 
+Thanks to BitProject for giving me such a huge opportunity to learn more about API or serverless function, participate in the tech conferences, and practice my presentation skills. I never thought that I would work on the development process or backend stuff. Also, I appreciate Jonah for spending time mentoring me and debugging the code together. Her strong coding passion opens my eyes that being a developer is fun! Thanks Jonah!
 
 I hope in the future that this feature can be useful for people that have problem with eating schedule and problem to choose food recipe. 
 

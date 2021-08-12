@@ -80,15 +80,15 @@ I hope in the future that this feature can be useful for people that have proble
 <br>
 
 ## What to do next?
-I will probably fix some bugs, such as timezone problem with Twilio (because it is always default in CET). I also will create this feature in future Android apps after I successfully embed it in the SMS feature. It will require more work to do since I have to do more research and design/UI stuff, but I think this project will be more fun! I would be so glad to earn more experience working as a designer and developer at the same time.
+I think I will take a break for two weeks then I will probably fix some bugs, such as timezone problem with Twilio (because it is always default in CET) and change all functions to Azure Durable Functions because this project is easier to be implemented with that. I didn't do this earlier because I still have limited knowledge regarding how Durable functions work. If this project successfully get the best result, I plan to implement this feature in the Android apps. It will require more work to do since I have to do more research and design/UI stuff, but I think this project will be more fun! I would be so glad to earn more experience working as a designer and developer at the same time. 
 
 ## Final Thoughts
 The camp was such a wonderful experience! I never thought that I would have a chance to work on this big project. Something that relates to serverless always amazes me! I don't know that one API can change anything and create a real product that can benefit others. :) 
 
 <img src = "https://drive.google.com/uc?export=view&id=14UdUXNWQbFpCzuDFBgWa_6JcJGTtSW0a" alt = "Final thoughts hello world" width = 600/>
 
-In the future, I always hope to apply my serverless skill to any projects that relate to climate change and sustainability. My idea is to get more people's attention about what's happening to our earth. 
 
-> Last but not least, let's say 🥂🥂 cheers to the present and the future of a better world! 🥂🥂 -- Beatrix Cendana
+
+> Last but not least, let's say 🥂🥂 thank you for all BitProject team and mentors for all your hardwork! 🥂🥂 Cheers! -- Beatrix Cendana
 
 <img src = "https://drive.google.com/uc?export=view&id=11V7yE2P4ECIAth4R8fkN1qH0HqoHPan3" alt = "Huge thanks" width = 600/>

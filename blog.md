@@ -77,6 +77,9 @@ Thanks to BitProject for giving me such a huge opportunity to learn more about A
 
 I hope in the future that this feature can be useful for people that have problem with eating schedule and problem to choose food recipe. 
 
-I will probably fix lots of stuff, such as timezone problem with Twilio because it is always default. I also will create this feature in future Android apps after I successfully embed it in the SMS feature. It will require more work to do since I have to do more research and design, but I think this project will help me earn more experience working as a designer and developer at the same time.
+<br>
+
+## What to do next?
+I will probably fix lots of stuff, such as timezone problem with Twilio because it is always default (in CET). I also will create this feature in future Android apps after I successfully embed it in the SMS feature. It will require more work to do since I have to do more research and design/UI stuff, but I think this project will be more fun! I would love to earn more experience working as a designer and developer at the same time.
 
 <img src = "https://drive.google.com/uc?export=view&id=11V7yE2P4ECIAth4R8fkN1qH0HqoHPan3" alt = "Huge thanks" width = 600/>

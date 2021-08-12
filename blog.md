@@ -1,5 +1,5 @@
 # 🍳 How Beatrix Built Food Bloom SMS Feature (meal reminder and food recipe generator) 🍳
-<img src = "https://drive.google.com/uc?export=view&id=1kEJEOER8He9wkvh0p2N3IYJbSDtSeTbQ" alt = "My picture" width = 600/>
+<img src = "https://drive.google.com/uc?export=view&id=1hOUoEsktI31PyzrRE5ZzXBsSSTwVucoK" alt = "My picture" width = 600/>
 
 ## Tagline
 API, Timer trigger, Azure function, HTTP function, Food API
@@ -16,22 +16,22 @@ So, I decided to create the SMS feature that can remind people to eat based on a
 ## Behind the scenes (include and describe flowchart)
 I made two flowcharts. In case the Tasty API doesn't work (sometimes it has an issue with the key), I can use another API which is called [Spoonacular Food API](https://spoonacular.com/food-api?ref=apilist.fun).
 
-<img src = "https://drive.google.com/uc?export=view&id=1iziGo1hok-8pJKzcjbSDzCyiBb2LdIHx" alt = "Flowchart of Food Bloom Reminder and Recipe Suggestion v1" width = 500/><img src = "https://drive.google.com/uc?export=view&id=1lmgwj8-GlpT8pP0QMIsnQymw4j_hbO8V" alt = "Flowchart of Food Bloom Reminder and Recipe Suggestion v2" width = 500/>
+<img src = "https://drive.google.com/uc?export=view&id=1LxSrKuqnbWs-hFxVCxPIu98NP6tnn_XX" alt = "Flowchart of Food Bloom Reminder and Recipe Suggestion v1" width = 450/><img src = "https://drive.google.com/uc?export=view&id=1rAEJWcS5ZiZkwBjKvWJg_NKZLsNPhhYo" alt = "Flowchart of Food Bloom Reminder and Recipe Suggestion v2" width = 450/>
 
 <br>
 
 ## The Technologies (Azure services, APIs, etc.)
 ### Azure Functions
 - [x] Timer trigger function: to give the reminder to the user when it is time to cook/eat.
-  <img src = "https://drive.google.com/uc?export=view&id=1QEyfILJ4wwdVVUe2sG2FPSeBs6L6c14H" alt = "Tech 1 picture" width = 600/>
+  <img src = "https://drive.google.com/uc?export=view&id=1JGWzWfogGGCHqITHdlK-EeiuwDrhvlr7" alt = "Tech 1 picture" width = 600/>
 - [x] Food API: Search and understand the users' food preferences by pulling out relevant and detailed food recipes.
-  <img src = "https://drive.google.com/uc?export=view&id=13VVGxtr29AI-U78FbCpDqacZ8qp-tfmY" alt = "Tech 2 picture" width = 600/>
+  <img src = "https://drive.google.com/uc?export=view&id=1RCz9jyAqGXBzgKpbhvMRnzD_yL4x2qVU" alt = "Tech 2 picture" width = 600/>
 <br> <br>
 
 ### Twilio SMS API and Webhook
 - [x] The Technologies (Azure services, APIs, etc.)
 - [x] By saving the environment variable in Azure configuration, I can call the timer trigger function to send a message to my phone
-  <img src = "https://drive.google.com/uc?export=view&id=1p_I4dkiVXeIx9LfLhB0Hb4K5vSD7NpZM" alt = "Tech 3 picture" width = 600/>
+  <img src = "https://drive.google.com/uc?export=view&id=1sZttBVuxt2ZoKQJalzro9m-woTmNYcuW" alt = "Tech 3 picture" width = 600/>
 <br>
 
 ### Front-end languages
@@ -47,16 +47,16 @@ No front end or UI in this feature. The language that I applied is Node.js.
 ## Step by step (with code snippets)
 ### The two reminders (breakfast and lunch) 
 Based on the timezone that people choose, they can get notifications when to prepare the meals. 
-<img src = "https://drive.google.com/uc?export=view&id=1dmTKq8nK752ZHPlMMeEJluyQ_zFRsN-l" alt = "Azure timer code" width = 700/>
+<img src = "https://drive.google.com/uc?export=view&id=1kXfsDLvE3YDZ6JR6jAgIG7FnBDJNEcpU" alt = "Azure timer code" width = 700/>
 <br>
-<img src = "https://drive.google.com/uc?export=view&id=1_CmxslBP9EfJQlZc3DzDlGbwTwURbS9N" alt = "Timer reminder in SMS" width = 700/>
+<img src = "https://drive.google.com/uc?export=view&id=1moDiHEi1GfpT645FWwM_aQ90-P4z6aSo" alt = "Timer reminder in SMS" width = 600/>
 <br>
 <br>
 
 ### Choose one ingredient you would like to have
 You can type any ingredients that you would like to have and get one random recipe (including the name of the recipe, description, and link). 
 <br>
-<img src = "https://drive.google.com/uc?export=view&id=120JSwVZPrAzWmPVKiVAyHAwV4SnA662v" alt = "HTTP function" width = 700/>
+<img src = "https://drive.google.com/uc?export=view&id=1itBp2TOt-oT-yhdXn2ZNNIlPRMKVfSsQ" alt = "HTTP function" width = 700/>
 
 ### Satisfied or not?
 You can re-type the random ingredient again if you are not satisfied enough with the random recipe that API generates for you :) Easy, right?
@@ -85,10 +85,10 @@ I think I will take a break for two weeks then I will probably fix some bugs, su
 ## Final Thoughts
 The camp was such a wonderful experience! I never thought that I would have a chance to work on this big project. Something that relates to serverless always amazes me! I don't know that one API can change anything and create a real product that can benefit others. :) 
 
-<img src = "https://drive.google.com/uc?export=view&id=14UdUXNWQbFpCzuDFBgWa_6JcJGTtSW0a" alt = "Final thoughts hello world" width = 600/>
+<img src = "https://drive.google.com/uc?export=view&id=1HmlnO6sg0h95H9sxvtRAIkJ-O1vfVrNh" alt = "Final thoughts hello world" width = 600/>
 
 
 
 > Last but not least, let's say 🥂🥂 thank you for all BitProject team and mentors for all your hardwork! 🥂🥂 Cheers! -- Beatrix Cendana
 
-<img src = "https://drive.google.com/uc?export=view&id=11V7yE2P4ECIAth4R8fkN1qH0HqoHPan3" alt = "Huge thanks" width = 600/>
+<img src = "https://drive.google.com/uc?export=view&id=1_bgzBAHAqzV6ZVILLz49fLY2njJHvWSH" alt = "Huge thanks" width = 600/>

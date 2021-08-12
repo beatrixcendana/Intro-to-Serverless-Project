@@ -80,6 +80,10 @@ I hope in the future that this feature can be useful for people that have proble
 <br>
 
 ## What to do next?
-I will probably fix lots of stuff, such as timezone problem with Twilio because it is always default (in CET). I also will create this feature in future Android apps after I successfully embed it in the SMS feature. It will require more work to do since I have to do more research and design/UI stuff, but I think this project will be more fun! I would love to earn more experience working as a designer and developer at the same time.
+I will probably fix lots of stuff, such as timezone problem with Twilio because it is always default (in CET). I also will create this feature in future Android apps after I successfully embed it in the SMS feature. It will require more work to do since I have to do more research and design/UI stuff, but I think this project will be more fun! because I would love to earn more experience working as a designer and developer at the same time.
+
+## Final Thoughts
+The camp was such a wonderful experience! I never thought that I would have a chance to work on this big project. Something that relates to serverless always amazes me! I don't know that one API can change anything and create a real product that can benefit others. :) 
+For the future, I always hope to apply my serverless skill to future project that relates with climate change and productivity.
 
 <img src = "https://drive.google.com/uc?export=view&id=11V7yE2P4ECIAth4R8fkN1qH0HqoHPan3" alt = "Huge thanks" width = 600/>
